@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Заявка - EuroTravel</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .steps {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+
+    .step {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 180px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .step h3 {
+        color: #1e3a8a;
+    }
+
+    .form-box {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+        font-size: 14px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    .check {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        padding: 10px;
+        background: #1e3a8a;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .btn:hover {
+        background: #2563eb;
+    }
+
+    .intro {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Оставить заявку</h1>
+    <p>Заполни форму — и мы подберём для тебя идеальный тур</p>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="tours.html">Туры</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="apply.html">Заявка</a>
+    <a href="contact.html">Контакты</a>
+</nav>
+
+<!-- 📌 ВСТУПЛЕНИЕ -->
+<section class="intro">
+    <h2>Как работает оформление тура?</h2>
+    <p>
+        Мы сделали процесс максимально простым. Оставь заявку, и наш менеджер свяжется с тобой.
+    </p>
+</section>
+
+<!-- 🪜 ЭТАПЫ -->
+<section class="steps">
+
+    <div class="step">
+        <h3>1</h3>
+        <p>Заполни форму</p>
+    </div>
+
+    <div class="step">
+        <h3>2</h3>
+        <p>Мы подбираем тур</p>
+    </div>
+
+    <div class="step">
+        <h3>3</h3>
+        <p>Подтверждение</p>
+    </div>
+
+    <div class="step">
+        <h3>4</h3>
+        <p>Путешествие</p>
+    </div>
+
+</section>
+
+<!-- 📝 ФОРМА -->
+<section class="form-box">
+
+    <form>
+
+        <label>Ваше имя</label>
+        <input type="text" placeholder="Введите имя">
+
+        <label>Email</label>
+        <input type="email" placeholder="example@mail.com">
+
+        <label>Телефон</label>
+        <input type="text" placeholder="+996...">
+
+        <label>Выберите направление</label>
+        <select>
+            <option>Париж</option>
+            <option>Рим</option>
+            <option>Барселона</option>
+            <option>Берлин</option>
+        </select>
+
+        <label>Тип тура</label>
+        <select>
+            <option>Эконом</option>
+            <option>Стандарт</option>
+            <option>Премиум</option>
+        </select>
+
+        <label>Бюджет ($)</label>
+        <input type="number" placeholder="например 500">
+
+        <label>Дата поездки</label>
+        <input type="date">
+
+        <label>Дополнительные услуги</label>
+
+        <div class="check">
+            <input type="checkbox">
+            <span>Экскурсии</span>
+        </div>
+
+        <div class="check">
+            <input type="checkbox">
+            <span>Страховка</span>
+        </div>
+
+        <div class="check">
+            <input type="checkbox">
+            <span>VIP-обслуживание</span>
+        </div>
+
+        <label>Комментарий</label>
+        <textarea placeholder="Ваши пожелания"></textarea>
+
+        <button class="btn" type="submit">Отправить заявку</button>
+
+    </form>
+
+</section>
+
+<footer>
+    © 2026 EuroTravel
+</footer>
+
+</body>
+</html>

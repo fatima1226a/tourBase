@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Галерея - EuroTravel</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .city-title {
+        margin-top: 30px;
+        font-size: 22px;
+        color: #1e3a8a;
+    }
+
+    .photo-caption {
+        font-size: 13px;
+        margin-top: 5px;
+        color: #444;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 30px 0;
+        flex-wrap: wrap;
+    }
+
+    .stat {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 150px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .stat h3 {
+        margin: 0;
+        color: #1e3a8a;
+    }
+
+    .intro {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Галерея путешествий</h1>
+    <p>Лучшие моменты наших туров по Европе</p>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="tours.html">Туры</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="apply.html">Заявка</a>
+    <a href="contact.html">Контакты</a>
+</nav>
+
+<!-- 📌 ВВЕДЕНИЕ -->
+<section class="intro">
+    <h2>Путешествия, которые остаются в памяти</h2>
+    <p>
+        Мы собрали лучшие моменты наших туристов.
+        Каждая фотография — это история, эмоция и впечатление.
+    </p>
+</section>
+
+<!-- 📊 СТАТИСТИКА -->
+<section class="stats">
+
+    <div class="stat">
+        <h3>15+</h3>
+        <p>Стран</p>
+    </div>
+
+    <div class="stat">
+        <h3>120+</h3>
+        <p>Туров</p>
+    </div>
+
+    <div class="stat">
+        <h3>500+</h3>
+        <p>Клиентов</p>
+    </div>
+
+</section>
+
+<!-- 🏙️ ПАРИЖ -->
+<section class="container">
+    <h2 class="city-title">Париж</h2>
+
+    <div class="gallery">
+
+        <div>
+            <img src="https://www.architime.ru/specarch/gustave_eiffel/1.jpg">
+            <div class="photo-caption">Эйфелева башня вечером</div>
+        </div>
+
+        <div>
+            <img src="https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Pont-Alexandre-III-over-river-Seine.jpg">
+            <div class="photo-caption">Прогулка по Сене</div>
+        </div>
+
+        <div>
+            <img src="https://turkmenistaninfo.gov.tm/media/news/photos/ru/1564963373_0_83_1600_983_1920x0_80_0_0_83da3eeca038b86e25eca194951072af_2_Q4HV866.jpg">
+            <div class="photo-caption">Лувр</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- 🏛️ РИМ -->
+<section class="container">
+    <h2 class="city-title">Рим</h2>
+
+    <div class="gallery">
+
+        <div>
+            <img src="https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Colosseum-Rome.jpg">
+            <div class="photo-caption">Колизей</div>
+        </div>
+
+        <div>
+            <img src="https://italy4.me/wp-content/uploads/2013/02/Fontana-di-Trevi-2.jpg">
+            <div class="photo-caption">Фонтан Треви</div>
+        </div>
+
+        <div>
+            <img src="https://rometm.com/wp-content/uploads/2017/12/ulitsy-rima-2-3.jpg">
+            <div class="photo-caption">Улицы Рима</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- 🌴 БАРСЕЛОНА -->
+<section class="container">
+    <h2 class="city-title">Барселона</h2>
+
+    <div class="gallery">
+
+        <div>
+            <img src="https://cdn-imgix.headout.com/mircobrands-content/image/b299bd25f75c1e299c877fed458576fa-Sagrada%20Familia%20-%20Facades.jpg?auto=compress%2Cformat&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop">
+            <div class="photo-caption">Саграда Фамилия</div>
+        </div>
+
+        <div>
+            <img src="https://aerobusbarcelona.es/wp-content/uploads/2023/06/jorge-fernandez-salas-Lp7JhwnxZ50-unsplash-scaled.jpg">
+            <div class="photo-caption">Пляж Барселоны</div>
+        </div>
+
+        <div>
+            <img src="https://barcelonatm.ru/wp-content/uploads/2017/09/Prospekt-Diagonal-odna-iz-osnovnyh-ulits-Barselony-3.jpg">
+            <div class="photo-caption">Улицы города</div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 EuroTravel
+</footer>
+
+</body>
+</html>

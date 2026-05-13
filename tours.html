@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Туры - EuroTravel</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #1e3a8a;
+        margin-top: 10px;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        background: #38bdf8;
+        color: white;
+        border-radius: 6px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .tour-details {
+        font-size: 14px;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .tour-details ul {
+        padding-left: 18px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background: #1e3a8a;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+    }
+
+    .btn:hover {
+        background: #2563eb;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-top: 30px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Наши туры</h1>
+    <p>Выберите идеальное путешествие по Европе</p>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="tours.html">Туры</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="apply.html">Заявка</a>
+    <a href="contact.html">Контакты</a>
+</nav>
+
+<!-- 🌍 ВВЕДЕНИЕ -->
+<section class="container">
+    <h2>Почему выбирают наши туры?</h2>
+    <p>
+        Мы предлагаем разные форматы путешествий: от бюджетных до премиум туров.
+        Каждый маршрут тщательно продуман для комфорта и впечатлений.
+    </p>
+</section>
+
+<!-- 💼 ТУРЫ -->
+<section class="container cards">
+
+    <!-- Париж -->
+    <div class="card">
+        <span class="badge">Популярный</span>
+        <h3>Париж</h3>
+        <p>Город любви и искусства</p>
+
+        <div class="tour-details">
+            <b>Включено:</b>
+            <ul>
+                <li>Авиабилет</li>
+                <li>Отель 3★</li>
+                <li>Экскурсия по городу</li>
+            </ul>
+        </div>
+
+        <div class="price">от 450$</div>
+        <a href="apply.html" class="btn">Забронировать</a>
+    </div>
+
+    <!-- Рим -->
+    <div class="card">
+        <span class="badge">Исторический</span>
+        <h3>Рим</h3>
+        <p>Древняя столица империи</p>
+
+        <div class="tour-details">
+            <b>Включено:</b>
+            <ul>
+                <li>Авиабилет</li>
+                <li>Отель 4★</li>
+                <li>Колизей + музеи</li>
+            </ul>
+        </div>
+
+        <div class="price">от 520$</div>
+        <a href="apply.html" class="btn">Забронировать</a>
+    </div>
+
+    <!-- Барселона -->
+    <div class="card">
+        <span class="badge">Пляжный</span>
+        <h3>Барселона</h3>
+        <p>Море и архитектура Гауди</p>
+
+        <div class="tour-details">
+            <b>Включено:</b>
+            <ul>
+                <li>Авиабилет</li>
+                <li>Отель у моря</li>
+                <li>Экскурсии + пляж</li>
+            </ul>
+        </div>
+
+        <div class="price">от 600$</div>
+        <a href="apply.html" class="btn">Забронировать</a>
+    </div>
+
+</section>
+
+<!-- 🧭 УРОВНИ ТУРОВ -->
+<section class="container">
+
+    <h2 class="section-title">Уровни туров</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Эконом</h3>
+            <p>Бюджетные поездки</p>
+        </div>
+
+        <div class="card">
+            <h3>Стандарт</h3>
+            <p>Комфорт и цена</p>
+        </div>
+
+        <div class="card">
+            <h3>Премиум</h3>
+            <p>Отели 5★ и VIP сервис</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 EuroTravel
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Контакты - EuroTravel</title>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .contact-grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+
+    .contact-card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 220px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .contact-card h3 {
+        color: #1e3a8a;
+        margin-bottom: 10px;
+    }
+
+    .map {
+        margin: 30px auto;
+        max-width: 800px;
+        height: 300px;
+        background: #ddd;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #555;
+    }
+
+    .form-box {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+        background: #1e3a8a;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #2563eb;
+    }
+
+    .intro {
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .trust {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #555;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Контакты</h1>
+    <p>Мы всегда на связи и готовы помочь</p>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="tours.html">Туры</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="apply.html">Заявка</a>
+    <a href="contact.html">Контакты</a>
+</nav>
+
+<!-- 📌 ВВЕДЕНИЕ -->
+<section class="intro">
+    <h2>Свяжитесь с нами</h2>
+    <p>
+        Если у тебя есть вопросы по турам, оплате или маршрутам — мы всегда готовы помочь.
+    </p>
+</section>
+
+<!-- 📇 КОНТАКТЫ -->
+<section class="contact-grid">
+
+    <div class="contact-card">
+        <h3>📍 Адрес</h3>
+        <p>Бишкек, Кыргызстан</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>📞 Телефон</h3>
+        <p>+996 500 500 500</p>
+    </div>
+
+    <div class="contact-card">
+        <h3>✉ Email</h3>
+        <p>info@eurotravel.com</p>
+    </div>
+
+</section>
+
+<!-- 🗺️ КАРТА -->
+
+<iframe
+    class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60701.1220139222!2d74.51917372770707!3d42.890048228652056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec81f4a0a30a7%3A0xebed4865356709e4!2z0JrRi9GA0LPRi9C30YHQutCw0Y8g0LPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3QsNGPINGE0LjQu9Cw0YDQvNC-0L3QuNGPINC40LwuINCiLiDQodCw0YLRi9C70LPQsNC90L7QstCw!5e0!3m2!1sru!2skg!4v1777436984851!5m2!1sru!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    width="100%"
+    height="350"
+    style="border:0; border-radius:12px;"
+    allowfullscreen=""
+    loading="lazy">
+</iframe>
+
+<!-- 📝 ФОРМА СООБЩЕНИЯ -->
+<section class="form-box">
+
+    <h3 style="text-align:center;">Написать сообщение</h3>
+
+    <form>
+        <input type="text" placeholder="Ваше имя">
+        <input type="email" placeholder="Email">
+        <textarea rows="5" placeholder="Ваш вопрос"></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+
+</section>
+
+<!-- 🛡️ ДОВЕРИЕ -->
+<section class="trust">
+    <p>✔ Мы отвечаем в течение 24 часов</p>
+    <p>✔ Работаем официально с 2020 года</p>
+    <p>✔ Более 500 довольных клиентов</p>
+</section>
+
+<footer>
+    © 2026 EuroTravel
+</footer>
+
+</body>
+</html>
